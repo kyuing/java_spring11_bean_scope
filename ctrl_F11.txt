@@ -1,0 +1,11 @@
+INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationCTX.xml]
+INFO : org.springframework.context.support.GenericXmlApplicationContext - Refreshing org.springframework.context.support.GenericXmlApplicationContext@2957fcb0: startup date [Fri Aug 09 20:02:42 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3567135c: defining beans [student]; root of factory hierarchy
+
+Name: KyuTae Han
+Age: 21
+
+Name: Dabbee Kim
+Age: 9
+
+student1 == student2

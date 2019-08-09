@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 
+	"Singleton means single bean definition to a single object instance." 
+	"Its pattern is scoped by per Java class.
+	 Spring container will create exactly one instance of the defined bean. 
+	 This single instance will be stored in a cache of singleton bean and same instance will be returned in all subsequent requests.",
+	 said our Google.
+	-->
+	<bean id="student" class="com.javalec.beanScope.Student" scope="singleton">
+	
+		<!-- Note that we only have the values to be passed to the specified constructor in student class, not any property tag values for setters -->
+		<constructor-arg value="KyuTae Han"/>
+		<constructor-arg value="21"/>
+	</bean>
+
+</beans>
